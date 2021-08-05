@@ -34,6 +34,7 @@ $crema: hsl(20, 28%, 71%);
     margin-left: 5px ;
     margin-right: 5px;
     margin-top: 25px;
+    margin-bottom: 100px;
     
 }
 
@@ -43,15 +44,55 @@ $crema: hsl(20, 28%, 71%);
 
 .btn-primary{
     margin-top: 10px;
+    display: flex;
+    flex-direction: row;  
+    width: 90px; 
 }
 
 .btn-secondary{
     margin-top: 10px;
+    display: flex;
+    flex-direction: row;  
+    width: 90px;
+}
+
+.buttons{
+    display: grid;
+    justify-content: center;
+}
+
+.footerParrafo{
+    display: grid;;
+    align-items: center;
+    justify-items: center;
 }
 
 .footer{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+    align-items: flex-end;
+    margin-bottom: 5px;
+
+}
+
+.footerM{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+.color{
+    display: flex;
+    margin-top: 100px;
+}
+
+.icon{
+    color: black;
 }
 
 .footer__encabezado{
@@ -61,5 +102,58 @@ $crema: hsl(20, 28%, 71%);
 
 .centrar{
     display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+
+.gridMensaje{
+    display: flex;
     justify-content: center;
 }
+
+.gridDestinos{
+    margin-top: 20px;
+}
+
+.centrarElementos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+
+.icon{
+    transition: all 2s ;
+}
+
+.icon:hover{
+    transform: translateY(-15px);
+}
+
+.icon2{
+    transition: all 2s ;
+}
+
+.icon2:hover{
+    transform: translateY(-15px);
+}
+
+.icon3{
+    transition: all 2s ;
+}
+
+.icon3:hover{
+    transform: translateY(-15px);
+}
+
+.gridMapa{
+    display: grid;
+}
+
+.dinero{
+    display: flex;
+    justify-content: center;
+
+
