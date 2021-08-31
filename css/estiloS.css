@@ -4689,8 +4689,87 @@ textarea.form-control-lg {
 .myBody {
   color: #caaea0; }
 
-.encabezado {
-  background-color: #afa9a7; }
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto; }
+
+.my-container {
+  background-color: darkgrey; }
+
+.card {
+  background: cornflowerblue;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+  margin-top: 10px; }
+
+.card__titulo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 20px; }
+
+.card__enlace {
+  color: black; }
+
+.card__extracto {
+  line-height: 28px;
+  color: #6D6D6D;
+  margin-bottom: 20px; }
+
+.boton, .boton--aceptar, .boton--cancelar {
+  border: none;
+  min-width: 180px;
+  height: 50px;
+  padding: 0 30px;
+  background: black;
+  color: #fff;
+  display: inline-block;
+  border-radius: 100px;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #403CC2;
+  transition: .3s ease all; }
+
+.contenedor1 {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto; }
+
+.carta {
+  background: cornsilk;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px; }
+
+.carta__titulo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 20px; }
+
+.carta__enlace {
+  color: black; }
+
+.carta__extracto {
+  line-height: 28px;
+  color: #6D6D6D;
+  margin-bottom: 20px; }
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-end; }
 
 .encabezado__titulo {
   font-size: 20px;
@@ -4739,13 +4818,28 @@ textarea.form-control-lg {
 
 .buttons {
   display: grid;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 15px; }
+
+.footerParrafo {
+  display: grid;
+  align-items: center;
+  justify-items: center; }
 
 .footer {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
   align-items: flex-end;
+  margin-bottom: 5px;
+  background-color: #a5a5a5; }
+
+.footerM {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
   margin-top: 20px; }
 
 .color {
@@ -4795,4 +4889,45 @@ textarea.form-control-lg {
   transform: translateY(-15px); }
 
 .gridMapa {
-  display: grid; }
+  display: flex;
+  justify-content: center; }
+
+.dinero {
+  display: flex;
+  justify-content: center; }
+
+.flexDinero {
+  margin-top: 20px; }
+
+.flexTudinero {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  justify-content: space-between; }
+
+.contenedores {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.bg-light {
+  background-color: #a1a1a1; }
+
+.boton, .boton--aceptar, .boton--cancelar {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black; }
+
+.boton--aceptar {
+  background-color: #b8b8b8;
+  color: #1a1a19; }
+
+.boton--cancelar {
+  background-color: #5a5a5a;
+  color: #0f0f0f; }

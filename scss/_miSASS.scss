@@ -1,11 +1,109 @@
-$piel: hsl(20, 5%, 67%);
+
 $centrar: center;
 $crema: hsl(20, 28%, 71%);
+$primary: #b48f72;
+$secondary: #b48f96;
 
 .myBody{
     color: $crema;
 }
-.encabezado{background-color: $piel;}
+
+.contenedor{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.my-container{
+    background-color: darkgrey;
+}
+
+.card {
+    background: cornflowerblue;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.card__titulo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.card__enlace {
+    color: black;
+}
+
+.card__extracto{
+    line-height: 28px;
+    color: #6D6D6D;
+    margin-bottom: 20px;
+}
+
+.boton {
+    border: none;
+    min-width: 180px;
+    height: 50px;
+    padding: 0 30px;
+    background: black;
+    color: #fff;
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #403CC2;
+    transition: .3s ease all;
+
+}
+
+.contenedor1{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.carta{
+    background: cornsilk;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.carta__titulo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.carta__enlace {
+    color: black;
+}
+
+.carta__extracto{
+    line-height: 28px;
+    color: #6D6D6D;
+    margin-bottom: 20px;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 .encabezado__titulo{
     font-size:20px;
     display: flex;
@@ -35,8 +133,7 @@ $crema: hsl(20, 28%, 71%);
     margin-right: 5px;
     margin-top: 25px;
     margin-bottom: 100px;
-    
-}
+    }
 
 .texto--color{
     background-color: lightslategrey;
@@ -59,10 +156,11 @@ $crema: hsl(20, 28%, 71%);
 .buttons{
     display: grid;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
 .footerParrafo{
-    display: grid;;
+    display: grid;
     align-items: center;
     justify-items: center;
 }
@@ -73,6 +171,7 @@ $crema: hsl(20, 28%, 71%);
     margin-top: 20px;
     align-items: flex-end;
     margin-bottom: 5px;
+    background-color: rgb(165, 165, 165);
 
 }
 
@@ -149,11 +248,32 @@ $crema: hsl(20, 28%, 71%);
 }
 
 .gridMapa{
-    display: grid;
+    display: flex;
+    justify-content: center;
 }
 
 .dinero{
     display: flex;
     justify-content: center;
+}
 
+.flexDinero{
+    margin-top: 20px;
+}
 
+.flexTudinero{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contenedores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-light{
+    background-color: rgb(161, 161, 161);
+}
