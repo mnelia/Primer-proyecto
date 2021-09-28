@@ -3,6 +3,14 @@ $centrar: center;
 $crema: hsl(20, 28%, 71%);
 $primary: #b48f72;
 $secondary: #b48f96;
+$success: green;
+$danger: red;
+$warning: yellow;
+$info: hsl(185, 48%, 73%);
+$light: coral;
+$dark: black;
+$muted: grey;
+$white: hsl(146, 26%, 70%);
 
 .myBody{
     color: $crema;
@@ -89,6 +97,10 @@ $secondary: #b48f96;
 
 .carta__enlace {
     color: black;
+}
+
+.gridTexto{
+    color: $warning;
 }
 
 .carta__extracto{
